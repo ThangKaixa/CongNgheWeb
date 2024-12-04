@@ -3,7 +3,7 @@ Create database webproducts;
 use webproducts;
 
 create table products(
-	id int primary key not null,
+	id int AUTO_INCREMENT primary key,
 	name varchar(50),
 	price float
 );
